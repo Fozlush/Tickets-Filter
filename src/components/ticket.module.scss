@@ -1,0 +1,91 @@
+.ticket {
+    width: 100%;
+    .header {
+        width: 100%;
+        height: 40px;
+        background-color: rgb(0, 135, 201);
+        display: flex;
+        justify-content: space-between;
+        .logo {
+            align-items: center;
+        }
+        .price {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            margin-right: 10px;
+            color: #FFFFFF;
+            span {
+                font-size: 20px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+    .info {
+        background-color: rgb(0, 135, 201);
+        div {
+            background-color: #FFFFFF;
+            border-radius: 5px;
+            .airport {
+                padding: 10px;
+                font-size: 20px;
+            }
+            .date {
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 18px;
+                font-weight: 500;
+                font-size: 20px;
+                span {
+                    color: rgb(0, 135, 201);
+                    font-size: 18px;
+                    font-weight: 300;
+                }
+                img {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+            .transfer {
+                width: 80%;
+                margin: 10px auto;
+                height: 0;
+                border-bottom: 1px solid black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                span {
+                    background-color: #FFFFFF;
+                    padding: 0 10px;
+                    color: rgb(255, 177, 104);
+                }
+            }
+            .company {
+                padding: 10px;
+            }
+        }
+        .to {
+            padding: 10px;
+        }
+        .back {
+            padding: 10px;
+            margin-top: 2px;
+        }
+    }
+    .button {
+        width: 100%;
+        height: 40px;
+        background-color: rgb(255, 177, 104);
+        color: #FFFFFF;
+        border: none;
+        font-size: 16px;
+    }
+}
+.ticket:not(:first-child) {
+    margin-top: 25px;
+}
